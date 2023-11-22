@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var kalender = new Date();
+      hari = kalender.getDay();
+      var strHari = "hari ini ";
+      switch (hari) {
+        case 0:
+          document.write((strHari = "minggu"));
+          break;
+
+        case 1:
+          document.write(strHari + "senin");
+          break;
+        case 2:
+          document.write(strHari + "selasa");
+          break;
+        case 3:
+          document.write(strHari + "rabu");
+          break;
+        case 4:
+          document.write(strHari + "kamis");
+          break;
+        case 5:
+          document.write(strHari + "jumat");
+          break;
+        case 6:
+          document.write(strHari + "sabtu");
+          break;
+      }
+    </script>
+  </body>
+</html>

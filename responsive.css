@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+  .ipay {
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}

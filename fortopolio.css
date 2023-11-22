@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(https://i.pinimg.com/originals/62/52/9a/62529a8311a2b66fd551d0aef1842f01.gif);
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  min-height: 700px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: none;
+  border-bottom: 2px solid brown;
+}
+
+main {
+  color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+  margin-left: 270px;
+  margin-top: 20%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container img {
+  width: 34px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.idcard img {
+  height: 150px;
+  width: auto;
+  background-color: orange;
+  background-size: cover;
+  border-radius: 60%;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 237, 0.973) 0px 1px 0px, rgb(0, 0, 255) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.idcard p {
+  margin-top: 20px;
+}
+
+.idcard {
+  text-align: center;
+  margin-left: 570px;
+  margin-top: -230px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 400px;
+  width: 330px;
+  border-radius: 20px;
+  box-shadow: red 0px 5px 15px;
+}
+
+.kenalan {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  box-shadow: red 0px 5px 15px;
+  width: 400px;
+  height: 100px;
+  padding-top: 20px;
+  padding-left: 20px;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+.garis {
+  background-color: white;
+  width: 1px;
+  height: 120px;
+  margin-top: -10%;
+  margin-left: -15%;
+  flex-direction: column;
+  display: block;
+}
+
+.contact i {
+  padding-bottom: 30px;
+  margin-left: 5px;
+}
+
+.contact {
+  padding-top: 12px;
+}
+
+.ipay {
+}

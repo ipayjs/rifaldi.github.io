@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-image: url(https://i.pinimg.com/originals/b7/c0/e8/b7c0e83b3a4582303923f654c3d9c668.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 700px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: none;
+  border-bottom: 2px solid brown;
+}
