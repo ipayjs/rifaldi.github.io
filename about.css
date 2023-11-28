@@ -4,31 +4,42 @@
 }
 
 .container {
-  background-image: url(https://i.pinimg.com/originals/b7/c0/e8/b7c0e83b3a4582303923f654c3d9c668.gif);
+  background-image: url(img/pexels-andrew-neel-3178786.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 700px;
 }
 
-nav ul {
-  list-style: none;
+nav i {
   display: flex;
-  justify-content: center;
-  padding-top: 30px;
-}
-
-nav li {
+  padding-top: 20px;
+  margin-top: 30px;
   margin-left: 30px;
 }
 
-nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  opacity: 0.7;
+nav {
+  text-align: center;
 }
 
-nav a:hover {
-  color: orange;
-  text-decoration: none;
-  border-bottom: 2px solid brown;
+.pemisah {
+  background-color: white;
+  height: 170px;
+  width: 2px;
+  margin-left: 9%;
+  margin-top: 10%;
+  display: flex;
+  letter-spacing: 7px;
+}
+
+.pendidikan {
+  color: white;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .pemisah {
+    display: block;
+    height: 320px;
+  }
 }

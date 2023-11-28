@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 70px;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 15px 24px;
+}
+
+header h1 a:hover {
+  color: gold;
+}
+
+header ul {
+  float: right;
+}
+
+header li {
+  padding: 24px;
+  display: inline-block;
+}
+
+header ul li a:hover {
+  color: gold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.atas {
+  width: 90%;
+  margin: 0 auto;
+  background-color: black;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+}
+
+.atas a {
+  color: white;
+}
+
+.atas:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.mobile-menu {
+  float: right;
+  display: none;
+  padding: 18px;
+}
+
+.mobile-menu:hover {
+  cursor: pointer;
+}
+
+/* #id {
+  display: none;
+} */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  width: 300px;
+  background-color: black;
+  transition: .3s;
+}
+
+.sidebar ul li a {
+  color: white;
+}
+
+.sidebar ul li {    
+  padding: 24px;
+  transition: .3s;
+  transition-property: background-color;
+}
+
+.sidebar ul li:hover {
+  background-color: gray;
+}
+
+.sidebar ul li a:hover {
+  color: gold;
+}
+
+#check:checked ~ .sidebar {
+  left: 0;
+}
+
+@media (max-width: 768px) {
+
+  .mobile-menu {
+      display: block;
+  }
+
+  header ul {
+      display: none;
+    }
+
+}

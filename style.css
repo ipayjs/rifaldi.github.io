@@ -8,10 +8,11 @@ html {
 }
 
 body {
-  background-image: url(https://i.pinimg.com/originals/09/23/dd/0923dd779b6e4825ca4f59f6c902fa36.gif);
+  background-image: url(img/pexels-veeterzy-39811.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
+  min-height: 700px;
+  background-attachment: fixed;
 }
 
 p {

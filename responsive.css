@@ -1,7 +1,45 @@
-@media (max-width: 768px) {
-  .ipay {
+@media screen and (max-width: 768px) {
+  .me {
     display: block;
-    flex-direction: column;
-    flex-wrap: wrap;
+    margin-top: 4%;
+  }
+
+  .me img {
+    /* margin: 0 20%; */
+  }
+
+  .me p {
+    margin-top: 20px;
+  }
+
+  .section-one {
+    min-height: 700px;
+  }
+
+  .section-one main h1 {
+    padding-top: 30px;
+  }
+
+  .logo {
+    display: block;
+  }
+  .logo img {
+    height: 100px;
+    width: auto;
+    gap: 24px;
+    margin: 0 25%;
+  }
+
+  .siap {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home {
+    width: 300px  ;
+  }
+
+  .home i {
+    margin-left: 2rem;
   }
 }
