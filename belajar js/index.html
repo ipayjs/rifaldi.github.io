@@ -11,6 +11,18 @@
 
     <p id="demo"></p>
 
-    <script src="tipe-data.js"></script>
+    <script>
+      function increment () {
+        document.getElementById('count').innerText++;
+        if (document.getElementById('count').innerText == 7) {
+        const hiddenMessage = document.createElement('h4');
+        hiddenMessage.innerText ='selamat anda dapet uang sebesar -100 rupiah';
+        const image = document.createElement('img');
+        image.setattributes('src', 'D:\rifaldi\img\3D_yound_women_sitting_with_laptop_Illustration-removebg-preview.png');
+        const content = document.querySelector('.content');
+        content.appendChild(hiddenMessage).appendChild(image);
+        }
+      }
+    </script>
   </body>
 </html>

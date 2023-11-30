@@ -29,13 +29,13 @@ nav {
 .home {
   display: flex;
   position: fixed;
-  background-color: #22092C;
+  background-color: #22092c;
   width: 450px;
   height: 50px;
   line-height: 50px;
   border-radius: 0px 0px 87px 87px;
--webkit-border-radius: 0px 0px 87px 87px;
--moz-border-radius: 0px 0px 87px 87px;
+  -webkit-border-radius: 0px 0px 87px 87px;
+  -moz-border-radius: 0px 0px 87px 87px;
 }
 
 .introduce {
@@ -43,7 +43,7 @@ nav {
   margin-left: 12%;
   font-size: 20px;
   color: white;
-  text-shadow: 6px 9px 7px rgba(0,0,0,0.6);
+  text-shadow: 6px 9px 7px rgba(0, 0, 0, 0.6);
 }
 
 .contact {
@@ -84,8 +84,8 @@ nav {
   box-shadow: 4px 12px 20px 8px #96efff;
   -webkit-box-shadow: 4px 12px 20px 8px #96efff;
   -moz-box-shadow: 4px 12px 20px 8px #96efff;
-  cursor: zoom-in;
 }
+  
 
 .me {
   display: flex;
@@ -106,7 +106,7 @@ nav {
 }
 
 .siap {
-  margin-left: 10%;
+  margin-left: 19%;
 }
 
 .skill h1 {
@@ -118,7 +118,7 @@ nav {
 .logo {
   display: flex;
   padding-top: 4%;
-  gap: 150px;
+  gap: 30px;
 }
 
 .logo img {
@@ -126,10 +126,65 @@ nav {
   width: auto;
   /* margin-left: 160px; */
   align-items: center;
-  background-color: white;
-  border-radius: 30px;
   padding: 30px;
-  -webkit-animation: slide-rotate-hor-top 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) reverse backwards;
-        animation: slide-rotate-hor-top 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) reverse backwards;
+  -webkit-animation: bounce-in 1s ease 0s 1 normal;
+  -moz-animation: bounce-in 1s ease 0s 1 normal;
+  -ms-animation: bounce-in 1s ease 0s 1 normal;
+  animation: bounce-in 1s ease 0s 1 normal;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 
+@-webkit-keyframes bounce-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  70% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.logo img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.penutupan {
+  background-color: #071952;
+  min-height: 400px;
+  display: flex;
+  color: white;
+}
+
+.penutupan p {
+  font-size: 60px;
+}
