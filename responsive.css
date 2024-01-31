@@ -42,4 +42,11 @@
   .home i {
     margin-left: 2rem;
   }
+
+  .about img {
+    height: 250px;
+    width: auto;
+    
+  }
+
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Definisikan latihan untuk setiap hari
+const workoutProgram = {
+  hari1: ['Push-ups', 'Dips', 'Push-up variations', 'Plank'],
+  hari2: ['Pull-ups', 'Chin-ups', 'Body rows', 'Hanging leg raises'],
+  hari3: ['Squats', 'Lunges', 'Calf raises', 'Leg raises'],
+  hari4: ['Push-ups', 'Dips', 'Push-up variations', 'Russian twists'],
+  hari5: ['Pull-ups', 'Chin-ups', 'Body rows', 'Hanging leg raises'],
+  hari6: ['Squats', 'Pistol squats', 'Calf raises', 'Reverse crunches'],
+  hari7: ['Rest day']
+};
+
+// Fungsi untuk mencetak latihan untuk setiap hari
+function cetakLatihan(hari, latihan) {
+  console.log(`Hari ${hari}:`);
+  latihan.forEach((exercise, index) => {
+    console.log(`${index + 1}. ${exercise}`);
+  });
+  console.log('\n');
+}
+
+// Jalankan program latihan selama seminggu
+for (const hari in workoutProgram) {
+  cetakLatihan(hari, workoutProgram[hari]);
+}
+
+    </script>
+</body>
+</html>
